@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ============================================
     // 4. INTERACTIVE TABS (FLOOR PLANS)
     // ============================================
-    const tabButtons = document.querySelectorAll(".tabs__btn");
+    const tabButtons = document.querySelectorAll(".tablink");
     const tabPanels = document.querySelectorAll(".tabs__panel");
 
     tabButtons.forEach(button => {
@@ -132,12 +132,21 @@ document.addEventListener("DOMContentLoaded", () => {
             const email = formData.get("email") || "";
             const config = formData.get("config") || "Not Specified";
 
-            // Format message for Sourcing Manager Makrand Pokharkar
-            const msg = `Hello Makrand, I'm interested in Kolte-Patil Vadgaon Pre-Launch.\n\n*Lead Details:*\n• Name: ${name}\n• Phone: ${phone}\n• Email: ${email}\n• Config: ${config}`;
+            // Choose WhatsApp target number dynamically
+            let targetPhone = "9637737557"; // Default for The Reserve
+            let projectDisplay = "Kolte Patil The Reserve";
+            
+            if (config.toLowerCase().includes("vyan")) {
+                targetPhone = "9767515773"; // Primary for Vyan
+                projectDisplay = "Kolte Patil Vyan";
+            }
+
+            // Format message
+            const msg = `Hello, I'm interested in ${projectDisplay} Pre-Launch.\n\n*Lead Details:*\n• Name: ${name}\n• Phone: ${phone}\n• Email: ${email}\n• Config: ${config}`;
             const encodedText = encodeURIComponent(msg);
             
-            // Redirect to Sourcing Manager WhatsApp
-            const waUrl = `https://wa.me/917030025045?text=${encodedText}`;
+            // Redirect to appropriate Sourcing Team WhatsApp
+            const waUrl = `https://wa.me/91${targetPhone}?text=${encodedText}`;
             
             // Close modal if open
             closeEnquiryModal();

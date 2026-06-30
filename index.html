@@ -7,17 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- SEO Meta -->
-    <title>Kolte-Patil Vadgaon | Premium Riverside Township Living in Pune</title>
+    <title>Kolte Patil The Reserve | Vadgaon Pune (Featuring Phase Vyan)</title>
     <meta name="description"
-        content="Experience the ultimate riverside township lifestyle at Kolte-Patil Vadgaon, Pune. 2, 2.5 & 3 BHK homes with 50+ world-class amenities. MahaRERA: PM1261012600748.">
+        content="Discover Kolte Patil The Reserve, Vadgaon's premier 21-Acre riverside township in Pune. Currently presenting Tower Vyan layouts. MahaRERA: PM1261012600748.">
     <meta name="keywords"
-        content="Kolte-Patil Vadgaon, flats in Vadgaon, property in Pune, 2 BHK Vadgaon, 3 BHK Pune, Riverside township Pune, new launch Pune">
+        content="Kolte Patil The Reserve, Kolte Patil Vyan, Vadgaon Pune property, 2 BHK Vyan Pune, 3 BHK Vyan, Riverside township Pune, new launch Pune">
     <meta name="author" content="Kolte-Patil">
     <meta name="robots" content="index, follow">
 
-    <!-- Preconnect Google Fonts -->
+    <!-- Favicon Links -->
+    <link rel="icon" href="https://www.koltepatil.com/assets/dist/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://www.koltepatil.com/assets/dist/images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts (Montserrat & Inter) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
@@ -29,30 +34,29 @@
 <body>
 
     <!-- ============================================
-         STICKY HEADER / NAVIGATION
+         STICKY HEADER / NAVIGATION (Corporate Style)
          ============================================ -->
     <header class="header" id="mainHeader">
         <div class="container">
             <a href="#home" class="header__logo">
-                <span class="header__logo-text">KOLTE-<span>PATIL</span></span>
+                <img src="https://www.koltepatil.com/assets/dist/images/logo.jpg" alt="Kolte-Patil Developers Ltd. Official Logo" class="brand-logo" style="height: 50px; width: auto; object-fit: contain;">
             </a>
 
             <nav class="nav" id="mainNav">
                 <ul class="nav__list">
                     <li><a href="#home" class="nav__link active">Home</a></li>
-                    <li><a href="#highlights" class="nav__link">Highlights</a></li>
-                    <li><a href="#pricing" class="nav__link">Pricing</a></li>
-                    <li><a href="#floorplans" class="nav__link">Floor Plans</a></li>
-                    <li><a href="#amenities" class="nav__link">Amenities</a></li>
-                    <li><a href="#location" class="nav__link">Location</a></li>
-                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                    <li><a href="#sec-project_overview" class="nav__link">Overview</a></li>
+                    <li><a href="#sec-project_pricing" class="nav__link">Pricing</a></li>
+                    <li><a href="#sec-project_plan" class="nav__link">Floor Plans</a></li>
+                    <li><a href="#sec-project_amenities" class="nav__link">Amenities</a></li>
+                    <li><a href="#sec-project_location" class="nav__link">Location</a></li>
                     <li class="nav__cta">
-                        <a href="#enquiry" class="btn btn--gold btn--sm btn--pulse trigger-modal">Enquire Now</a>
+                        <a href="#sec-enquire_now" class="btn btn_orange btn_sm trigger-modal" data-title="Request Project Presentation">Enquire Now</a>
                     </li>
                 </ul>
             </nav>
 
-            <!-- Hamburger (Mobile) -->
+            <!-- Hamburger Toggle (Mobile) -->
             <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -66,27 +70,23 @@
     <nav class="mobile-nav" id="mobileNav">
         <ul class="mobile-nav__list">
             <li><a href="#home" class="mobile-nav__link">Home</a></li>
-            <li><a href="#highlights" class="mobile-nav__link">Highlights</a></li>
-            <li><a href="#pricing" class="mobile-nav__link">Pricing</a></li>
-            <li><a href="#floorplans" class="mobile-nav__link">Floor Plans</a></li>
-            <li><a href="#amenities" class="mobile-nav__link">Amenities</a></li>
-            <li><a href="#location" class="mobile-nav__link">Location</a></li>
-            <li><a href="#contact" class="mobile-nav__link">Contact</a></li>
+            <li><a href="#sec-project_overview" class="mobile-nav__link">Overview</a></li>
+            <li><a href="#sec-project_pricing" class="mobile-nav__link">Pricing</a></li>
+            <li><a href="#sec-project_plan" class="mobile-nav__link">Floor Plans</a></li>
+            <li><a href="#sec-project_amenities" class="mobile-nav__link">Amenities</a></li>
+            <li><a href="#sec-project_location" class="mobile-nav__link">Location</a></li>
             <li style="margin-top: 16px;">
-                <a href="#enquiry" class="btn btn--gold trigger-modal" style="width: 100%;">Enquire Now</a>
+                <a href="#sec-enquire_now" class="btn btn_orange trigger-modal" style="width: 100%;">Enquire Now</a>
             </li>
         </ul>
     </nav>
 
     <main>
         <!-- ============================================
-             1. HERO SECTION
+             1. HERO SECTION (sec-project_hero)
              ============================================ -->
-        <section class="hero" id="home">
-            <div class="hero__bg">
-                <!-- Using a high-quality placeholder background for premium luxury real estate -->
-                <div style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1920&q=80'); width:100%; height:100%; background-size:cover; background-position:center;"></div>
-            </div>
+        <section class="sec-project_hero" id="home">
+            <div class="hero__bg" style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1920&q=80');"></div>
             <div class="hero__overlay"></div>
 
             <div class="hero__content">
@@ -96,106 +96,111 @@
                 </div>
 
                 <h1 class="hero__title">The Ultimate Riverside Township Lifestyle</h1>
-                <h2 class="hero__subtitle">Premium 2, 2.5 & 3 BHK Pre-Launch Homes by Kolte-Patil</h2>
-                <p class="hero__desc">
-                    Experience the perfect blend of luxury, nature, and modern living across a premium 21-Acre master-planned township featuring scenic riverside views, grand boulevards, and world-class design.
-                </p>
-
+                <h2 class="hero__subtitle">At Kolte Patil The Reserve — Now Launching Tower Vyan</h2>
+                
                 <div class="hero__ctas">
-                    <button class="btn btn--gold btn--lg trigger-modal" data-title="Request Pre-Launch Pricing">Get Pricing Details</button>
-                    <button class="btn btn--outline btn--lg trigger-modal" data-title="Book Virtual Site Visit">Book Site Visit</button>
-                    <button class="btn btn--outline btn--lg trigger-modal" data-title="Download Project Brochure">Download Brochure</button>
-                </div>
-            </div>
-
-            <div class="hero__scroll-indicator">
-                <i class="fa-solid fa-chevron-down"></i>
-            </div>
-        </section>
-
-        <!-- ============================================
-             2. INTRO HIGHLIGHTS STRIP
-             ============================================ -->
-        <section class="intro-strip">
-            <div class="container">
-                <div class="intro-strip__grid">
-                    <div class="intro-strip__item">
-                        <div class="intro-strip__icon">
-                            <i class="fa-solid fa-tree"></i>
-                        </div>
-                        <h3 class="intro-strip__title">21 Acres</h3>
-                        <p class="intro-strip__text">Premium Township Development</p>
-                    </div>
-                    <div class="intro-strip__item">
-                        <div class="intro-strip__icon">
-                            <i class="fa-solid fa-building"></i>
-                        </div>
-                        <h3 class="intro-strip__title">22 Towers</h3>
-                        <p class="intro-strip__text">Magnificent Skyline Elevations</p>
-                    </div>
-                    <div class="intro-strip__item">
-                        <div class="intro-strip__icon">
-                            <i class="fa-solid fa-cloud-sun"></i>
-                        </div>
-                        <h3 class="intro-strip__title">70% Open Space</h3>
-                        <p class="intro-strip__text">Breath of Fresh Air Layout</p>
-                    </div>
-                    <div class="intro-strip__item">
-                        <div class="intro-strip__icon">
-                            <i class="fa-solid fa-water"></i>
-                        </div>
-                        <h3 class="intro-strip__title">Riverside Living</h3>
-                        <p class="intro-strip__text">Exclusive Scenic Views</p>
-                    </div>
+                    <button class="btn btn_orange trigger-modal" data-title="Request Pre-Launch Pricing">Get Pricing Details</button>
+                    <button class="btn btn_outline trigger-modal" data-title="Download Project Brochure">Download Brochure</button>
+                    <button class="btn btn_outline trigger-modal" data-title="Book Virtual Site Visit">Book Site Visit</button>
                 </div>
             </div>
         </section>
 
+        <!-- Sub-banner brand strip (corporate style logos) -->
+
         <!-- ============================================
-             3. PROJECT OVERVIEW
+             2. OVERVIEW SECTION (sec-project_overview)
              ============================================ -->
-        <section class="section section--light" id="highlights">
+        <section class="sec-project_overview" id="sec-project_overview">
             <div class="container">
-                <div class="section-header">
-                    <h2>Project Highlights</h2>
-                    <p>Designed for multi-generational comfort with top-tier architectural elegance and location convenience.</p>
+                <div class="overview_content">
+                    <h2 class="title1 darkTitle">
+                        Kolte Patil <span>The Reserve</span>
+                    </h2>
+                    <h5 class="overview_address">Featured Phase: Tower Vyan | Vadgaon, Pune</h5>
+                    <h1>2, 2.5 & 3 BHK Riverside Layouts inside Tower Vyan starting from ₹85 Lakhs*</h1>
+                    <p>
+                        Discover the perfect balance of upscale living across 21 Acres of meticulously planned space. 
+                        Featuring 22 magnificent towers that rise majestically against the city skyline, this exclusive 
+                        riverside development promises unique perspectives on refined living. 
+                    </p>
+                    <p>
+                        Homebuyers looking for luxury apartments in Pune will appreciate the commitment to quality design, 
+                        grand entry boulevards, and low-density open air spaces. Enter the world of Kolte Patil The Reserve, 
+                        a premium master-planned township. Currently booking configurations inside its featured launched residential tower: Vyan.
+                    </p>
                 </div>
 
-                <div class="highlights__grid">
-                    <div class="highlights__card">
-                        <div class="highlights__card-icon"><i class="fa-solid fa-road"></i></div>
-                        <h3>Central Boulevard</h3>
-                        <p>A grand central entry boulevard and meticulously planned multilevel landscaping layout.</p>
+                <div class="main_project_info">
+                    <img src="https://www.koltepatil.com/assets/dist/images/logo.jpg" alt="Kolte Patil Logo" class="overview_project_logo">
+                    <div class="overview_tagline">
+                        <p>50+ World-Class Modern Amenities at Kolte Patil Vadgaon</p>
                     </div>
-                    <div class="highlights__card">
-                        <div class="highlights__card-icon"><i class="fa-solid fa-car"></i></div>
-                        <h3>Ample Parking</h3>
-                        <p>Spacious, secure dedicated car parking allocations for residents and visitors alike.</p>
+                    <div class="overview_details_list">
+                        <p><strong>Township Area:</strong> Approx. 21 Acres</p>
+                        <p><strong>Total Towers:</strong> 22 Magnificent Elevations</p>
+                        <p><strong>Open Spaces:</strong> 70% Open-to-Sky Layouts</p>
                     </div>
-                    <div class="highlights__card">
-                        <div class="highlights__card-icon"><i class="fa-solid fa-dumbbell"></i></div>
-                        <h3>50+ Modern Amenities</h3>
-                        <p>World-class health, fitness, recreation, and community areas designed for all ages.</p>
+                    <a href="javascript:void(0);" class="btn btn_orange trigger-modal" data-title="Download PDF Brochure">Download Brochure</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             3. HIGHIGHTS PARAMETERS (sec-project_highlights)
+             ============================================ -->
+        <section class="sec-project_highlights">
+            <div class="container">
+                <div class="highlights_grid">
+                    <div class="highlight_card">
+                        <i class="fa-solid fa-tree"></i>
+                        <h3>21 Acres</h3>
+                        <p>Premium township development</p>
                     </div>
-                    <div class="highlights__card">
-                        <div class="highlights__card-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                        <h3>Gated Security</h3>
-                        <p>24/7 smart security surveillance keeping your family safe and protected.</p>
+                    <div class="highlight_card">
+                        <i class="fa-solid fa-building"></i>
+                        <h3>22 Towers</h3>
+                        <p>Magnificent skyline elevations</p>
+                    </div>
+                    <div class="highlight_card">
+                        <i class="fa-solid fa-cloud-sun"></i>
+                        <h3>70% Open Space</h3>
+                        <p>Breath of fresh air layout</p>
+                    </div>
+                    <div class="highlight_card">
+                        <i class="fa-solid fa-water"></i>
+                        <h3>Riverside Living</h3>
+                        <p>Exclusive scenic views</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- ============================================
-             4. CONFIGURATIONS & PRICING
+             4. VIDEO WALKTHROUGH SECTION
              ============================================ -->
-        <section class="section" id="pricing">
+        <section class="sec-project_video">
             <div class="container">
-                <div class="section-header">
-                    <h2>Expected Pricing & Configuration</h2>
-                    <p>Unlock first-mover advantages by securing inventories at pre-launch pricing rates.</p>
+                <h2 class="title1 darkTitle text-center">Virtual <span>Walkthrough Tour</span></h2>
+                <div class="video-placeholder" style="position: relative; overflow: hidden; border-radius: var(--radius-sm); box-shadow: var(--shadow-md); border: 1px solid #e0e0e0; background: #303030; min-height: 450px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: #fff; cursor: pointer; padding: 40px;">
+                    <div style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80'); position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.35; background-size: cover; background-position: center; z-index: 1;"></div>
+                    <div style="position: relative; z-index: 2; padding: 20px;">
+                        <i class="fa-solid fa-circle-play" style="font-size: 4.5rem; color: var(--accent); margin-bottom: 20px; display: block; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));"></i>
+                        <h3 style="color: #fff; font-size: 1.8rem; text-transform: uppercase; margin-bottom: 10px; font-weight: 700; letter-spacing: 0.5px;">Virtual Walkthrough Tour</h3>
+                        <p style="color: rgba(255,255,255,0.9); font-size: 1rem; max-width: 520px; margin: 0 auto; line-height: 1.6;">Our high-fidelity project walkthrough teaser video is currently being generated. Click "Enquire Now" to request offline video walkthrough copies once released.</p>
+                        <button class="btn btn_orange trigger-modal" data-title="Request Video Walkthrough Details" style="margin-top: 25px;">Enquire For Video Walkthrough</button>
+                    </div>
                 </div>
+            </div>
+        </section>
 
+        <!-- ============================================
+             5. CONFIGURATIONS & PRICING (sec-project_pricing)
+             ============================================ -->
+        <section class="sec-project_pricing" id="sec-project_pricing">
+            <div class="container">
+                <h2 class="title1 darkTitle text-center">Pre-Launch Pricing — <span>Tower Vyan</span></h2>
+                
                 <div class="pricing__grid">
                     <!-- Pricing Card 1 -->
                     <div class="pricing__card">
@@ -204,7 +209,7 @@
                         <div class="pricing__size"><i class="fa-solid fa-maximize"></i> 750 to 900 sq.ft.</div>
                         <div class="pricing__price">₹85 L - ₹1.05 CR*</div>
                         <p class="pricing__detail">Efficient layout optimized for modern urban families.</p>
-                        <button class="btn btn--gold trigger-modal" data-title="Enquire about 2 BHK Pricing" data-pref="2 BHK">Get Complete Pricing</button>
+                        <button class="btn btn_orange trigger-modal" data-title="Enquire about 2 BHK Pricing" data-pref="Vyan 2 BHK">Get Complete Pricing</button>
                     </div>
 
                     <!-- Pricing Card 2 -->
@@ -214,7 +219,7 @@
                         <div class="pricing__size"><i class="fa-solid fa-maximize"></i> 900 to 1100 sq.ft.</div>
                         <div class="pricing__price">₹1.05 CR - ₹1.25 CR*</div>
                         <p class="pricing__detail">Extra study room format ideal for hybrid remote-work setups.</p>
-                        <button class="btn btn--gold trigger-modal" data-title="Enquire about 2.5 BHK Pricing" data-pref="2.5 BHK">Get Complete Pricing</button>
+                        <button class="btn btn_orange trigger-modal" data-title="Enquire about 2.5 BHK Pricing" data-pref="Vyan 2.5 BHK">Get Complete Pricing</button>
                     </div>
 
                     <!-- Pricing Card 3 -->
@@ -224,120 +229,114 @@
                         <div class="pricing__size"><i class="fa-solid fa-maximize"></i> 1100 to 1400 sq.ft.</div>
                         <div class="pricing__price">₹1.35 CR - ₹1.65 CR*</div>
                         <p class="pricing__detail">Massive layouts with panoramic views of the scenic riverside.</p>
-                        <button class="btn btn--gold trigger-modal" data-title="Enquire about 3 BHK Pricing" data-pref="3 BHK">Get Complete Pricing</button>
+                        <button class="btn btn_orange trigger-modal" data-title="Enquire about 3 BHK Pricing" data-pref="Vyan 3 BHK">Get Complete Pricing</button>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- ============================================
-             5. INTERACTIVE FLOOR PLANS
+             6. FLOOR PLANS (sec-project_plan)
              ============================================ -->
-        <section class="section section--cream" id="floorplans">
+        <section class="sec-project_plan" id="sec-project_plan">
             <div class="container">
-                <div class="section-header">
-                    <h2>Interactive Floor Plans</h2>
-                    <p>View detailed spatial specifications and room dimension layouts.</p>
+                <h2 class="title1 darkTitle text-center">Floor Plans — <span>Tower Vyan</span></h2>
+
+                <div class="tab-wrp">
+                    <a href="javascript:void(0)" class="tablink active" data-tab="2bhk">2 BHK Layout</a>
+                    <a href="javascript:void(0)" class="tablink" data-tab="2-5bhk">2.5 BHK Layout</a>
+                    <a href="javascript:void(0)" class="tablink" data-tab="3bhk">3 BHK Layout</a>
                 </div>
 
-                <!-- Tabs Container -->
-                <div class="tabs">
-                    <div class="tabs__nav">
-                        <button class="tabs__btn active" data-tab="2bhk">2 BHK Layout</button>
-                        <button class="tabs__btn" data-tab="2-5bhk">2.5 BHK Layout</button>
-                        <button class="tabs__btn" data-tab="3bhk">3 BHK Layout</button>
+                <div class="tabs__content">
+                    <!-- Tab 1: 2 BHK -->
+                    <div class="tabs__panel active" id="tab-2bhk">
+                        <div class="floorplan__panel-grid">
+                            <div class="floorplan__img-container">
+                                <img src="assets/unit-2bhk.png" alt="Kolte-Patil The Reserve 2 BHK Unit Plan" class="floorplan__image">
+                            </div>
+                            <div class="floorplan__details">
+                                <h3>2 BHK Floor Plan Details</h3>
+                                <table class="specs-table">
+                                    <tr>
+                                        <th>Room Name</th>
+                                        <th>Size (SF)</th>
+                                    </tr>
+                                    <tr><td>Entrance Foyer</td><td>4'6" x 4'1"</td></tr>
+                                    <tr><td>Living Room</td><td>11' x 15'6"</td></tr>
+                                    <tr><td>Dining Area</td><td>5'8" x 8'7"</td></tr>
+                                    <tr><td>Living Balcony</td><td>11' x 6'1"</td></tr>
+                                    <tr><td>Kitchen</td><td>8' x 9'</td></tr>
+                                    <tr><td>Dry Balcony</td><td>3'6" x 8'9"</td></tr>
+                                    <tr><td>Common Toilet</td><td>8' x 5'</td></tr>
+                                    <tr><td>Bed Room</td><td>10'6" x 13'</td></tr>
+                                    <tr><td>Master Bed Room</td><td>11' x 16'7"</td></tr>
+                                    <tr><td>M. Bed Room Toilet</td><td>8' x 5'</td></tr>
+                                </table>
+                                <button class="btn btn_black trigger-modal" data-title="Request High-Res 2 BHK Layout Details" data-pref="2 BHK">Request Layout PDF</button>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="tabs__content">
-                        <!-- Tab 1: 2 BHK -->
-                        <div class="tabs__panel active" id="tab-2bhk">
-                            <div class="floorplan__panel-grid">
-                                <div class="floorplan__img-container">
-                                    <img src="assets/unit-2bhk.png" alt="Kolte-Patil Vadgaon 2 BHK Unit Plan" class="floorplan__image">
-                                </div>
-                                <div class="floorplan__details">
-                                    <h3>2 BHK Floor Plan Details</h3>
-                                    <table class="specs-table">
-                                        <tr>
-                                            <th>Room Name</th>
-                                            <th>Size (SF)</th>
-                                        </tr>
-                                        <tr><td>Entrance Foyer</td><td>4'6" x 4'1"</td></tr>
-                                        <tr><td>Living Room</td><td>11' x 15'6"</td></tr>
-                                        <tr><td>Dining Area</td><td>5'8" x 8'7"</td></tr>
-                                        <tr><td>Living Balcony</td><td>11' x 6'1"</td></tr>
-                                        <tr><td>Kitchen</td><td>8' x 9'</td></tr>
-                                        <tr><td>Dry Balcony</td><td>3'6" x 8'9"</td></tr>
-                                        <tr><td>Common Toilet</td><td>8' x 5'</td></tr>
-                                        <tr><td>Bed Room</td><td>10'6" x 13'</td></tr>
-                                        <tr><td>Master Bed Room</td><td>11' x 16'7"</td></tr>
-                                        <tr><td>M. Bed Room Toilet</td><td>8' x 5'</td></tr>
-                                    </table>
-                                    <button class="btn btn--navy trigger-modal" data-title="Request High-Res 2 BHK Layout Details" data-pref="2 BHK">Request Layout PDF</button>
-                                </div>
+                    <!-- Tab 2: 2.5 BHK -->
+                    <div class="tabs__panel" id="tab-2-5bhk">
+                        <div class="floorplan__panel-grid">
+                            <div class="floorplan__img-container">
+                                <img src="assets/unit-2.5bhk.png" alt="Kolte-Patil The Reserve 2.5 BHK Unit Plan" class="floorplan__image">
+                            </div>
+                            <div class="floorplan__details">
+                                <h3>2.5 BHK Floor Plan Details</h3>
+                                <table class="specs-table">
+                                    <tr>
+                                        <th>Room Name</th>
+                                        <th>Size (SF)</th>
+                                    </tr>
+                                    <tr><td>Entrance Foyer</td><td>7'6" x 4'</td></tr>
+                                    <tr><td>Living Room</td><td>11'6" x 8'7"</td></tr>
+                                    <tr><td>Dining Area</td><td>6'8" x 8'7"</td></tr>
+                                    <tr><td>Living Balcony</td><td>11'6" x 5'</td></tr>
+                                    <tr><td>Kitchen</td><td>8' x 9'3"</td></tr>
+                                    <tr><td>Dry Balcony</td><td>3'5" x 9'</td></tr>
+                                    <tr><td>Study Room</td><td>8' x 11'9"</td></tr>
+                                    <tr><td>Common Toilet</td><td>8' x 5'</td></tr>
+                                    <tr><td>Bed Room</td><td>10' x 11'9"</td></tr>
+                                    <tr><td>Master Bed Room</td><td>11' x 12'</td></tr>
+                                    <tr><td>Master Bed Room Toilet</td><td>8' x 5'</td></tr>
+                                    <tr><td>Master Bed Room Balcony</td><td>11' x 3'</td></tr>
+                                </table>
+                                <button class="btn btn_black trigger-modal" data-title="Request High-Res 2.5 BHK Layout Details" data-pref="2.5 BHK">Request Layout PDF</button>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- Tab 2: 2.5 BHK -->
-                        <div class="tabs__panel" id="tab-2-5bhk">
-                            <div class="floorplan__panel-grid">
-                                <div class="floorplan__img-container">
-                                    <img src="assets/unit-2.5bhk.png" alt="Kolte-Patil Vadgaon 2.5 BHK Unit Plan" class="floorplan__image">
-                                </div>
-                                <div class="floorplan__details">
-                                    <h3>2.5 BHK Floor Plan Details</h3>
-                                    <table class="specs-table">
-                                        <tr>
-                                            <th>Room Name</th>
-                                            <th>Size (SF)</th>
-                                        </tr>
-                                        <tr><td>Entrance Foyer</td><td>7'6" x 4'</td></tr>
-                                        <tr><td>Living Room</td><td>11'6" x 8'7"</td></tr>
-                                        <tr><td>Dining Area</td><td>6'8" x 8'7"</td></tr>
-                                        <tr><td>Living Balcony</td><td>11'6" x 5'</td></tr>
-                                        <tr><td>Kitchen</td><td>8' x 9'3"</td></tr>
-                                        <tr><td>Dry Balcony</td><td>3'5" x 9'</td></tr>
-                                        <tr><td>Study Room</td><td>8' x 11'9"</td></tr>
-                                        <tr><td>Common Toilet</td><td>8' x 5'</td></tr>
-                                        <tr><td>Bed Room</td><td>10' x 11'9"</td></tr>
-                                        <tr><td>Master Bed Room</td><td>11' x 12'</td></tr>
-                                        <tr><td>Master Bed Room Toilet</td><td>8' x 5'</td></tr>
-                                        <tr><td>Master Bed Room Balcony</td><td>11' x 3'</td></tr>
-                                    </table>
-                                    <button class="btn btn--navy trigger-modal" data-title="Request High-Res 2.5 BHK Layout Details" data-pref="2.5 BHK">Request Layout PDF</button>
-                                </div>
+                    <!-- Tab 3: 3 BHK -->
+                    <div class="tabs__panel" id="tab-3bhk">
+                        <div class="floorplan__panel-grid">
+                            <div class="floorplan__img-container">
+                                <img src="assets/unit-3bhk.png" alt="Kolte-Patil The Reserve 3 BHK Unit Plan" class="floorplan__image">
                             </div>
-                        </div>
-
-                        <!-- Tab 3: 3 BHK -->
-                        <div class="tabs__panel" id="tab-3bhk">
-                            <div class="floorplan__panel-grid">
-                                <div class="floorplan__img-container">
-                                    <img src="assets/unit-3bhk.png" alt="Kolte-Patil Vadgaon 3 BHK Unit Plan" class="floorplan__image">
-                                </div>
-                                <div class="floorplan__details">
-                                    <h3>3 BHK Floor Plan Details</h3>
-                                    <table class="specs-table">
-                                        <tr>
-                                            <th>Room Name</th>
-                                            <th>Size (SF)</th>
-                                        </tr>
-                                        <tr><td>Entrance Foyer</td><td>7'5" x 3'5"</td></tr>
-                                        <tr><td>Living Room</td><td>11' x 15'11"</td></tr>
-                                        <tr><td>Dining Area</td><td>7'9" x 9'11"</td></tr>
-                                        <tr><td>Living Balcony</td><td>11' x 5'</td></tr>
-                                        <tr><td>Kitchen</td><td>9'10" x 8'9"</td></tr>
-                                        <tr><td>Dry Balcony</td><td>3'5" x 8'9"</td></tr>
-                                        <tr><td>Common Toilet</td><td>8' x 5'</td></tr>
-                                        <tr><td>Study Room</td><td>10' x 11'</td></tr>
-                                        <tr><td>Bed Room</td><td>10'6" x 11'</td></tr>
-                                        <tr><td>Bed Room Toilet</td><td>5' x 8'</td></tr>
-                                        <tr><td>Master Bed Room</td><td>11'6" x 13'</td></tr>
-                                        <tr><td>Master Bed Room Toilet</td><td>5' x 8'</td></tr>
-                                        <tr><td>Master Bed Room Balcony</td><td>6'1" x 8'</td></tr>
-                                    </table>
-                                    <button class="btn btn--navy trigger-modal" data-title="Request High-Res 3 BHK Layout Details" data-pref="3 BHK">Request Layout PDF</button>
-                                </div>
+                            <div class="floorplan__details">
+                                <h3>3 BHK Floor Plan Details</h3>
+                                <table class="specs-table">
+                                    <tr>
+                                        <th>Room Name</th>
+                                        <th>Size (SF)</th>
+                                    </tr>
+                                    <tr><td>Entrance Foyer</td><td>7'5" x 3'5"</td></tr>
+                                    <tr><td>Living Room</td><td>11' x 15'11"</td></tr>
+                                    <tr><td>Dining Area</td><td>7'9" x 9'11"</td></tr>
+                                    <tr><td>Living Balcony</td><td>11' x 5'</td></tr>
+                                    <tr><td>Kitchen</td><td>9'10" x 8'9"</td></tr>
+                                    <tr><td>Dry Balcony</td><td>3'5" x 8'9"</td></tr>
+                                    <tr><td>Common Toilet</td><td>8' x 5'</td></tr>
+                                    <tr><td>Study Room</td><td>10' x 11'</td></tr>
+                                    <tr><td>Bed Room</td><td>10'6" x 11'</td></tr>
+                                    <tr><td>Bed Room Toilet</td><td>5' x 8'</td></tr>
+                                    <tr><td>Master Bed Room</td><td>11'6" x 13'</td></tr>
+                                    <tr><td>Master Bed Room Toilet</td><td>5' x 8'</td></tr>
+                                    <tr><td>Master Bed Room Balcony</td><td>6'1" x 8'</td></tr>
+                                </table>
+                                <button class="btn btn_black trigger-modal" data-title="Request High-Res 3 BHK Layout Details" data-pref="3 BHK">Request Layout PDF</button>
                             </div>
                         </div>
                     </div>
@@ -346,71 +345,178 @@
         </section>
 
         <!-- ============================================
-             6. AMENITIES SECTION
+             7. AMENITIES (sec-project_amenities)
              ============================================ -->
-        <section class="section" id="amenities">
+        <section class="sec-project_amenities" id="sec-project_amenities">
             <div class="container">
-                <div class="section-header">
-                    <h2>50+ World-Class Amenities</h2>
-                    <p>Indulge in a dynamic lifestyle meticulously crafted with leisure and utility amenities.</p>
-                </div>
-
-                <div class="amenities__grid">
-                    <div class="amenity__item">
-                        <i class="fa-solid fa-swimming-pool"></i>
-                        <span>Riverside Infinity Pool</span>
+                <h2 class="title1 darkTitle text-center">Project <span>Amenities</span></h2>
+                <p class="section-subtitle text-center">Experience over 50+ world-class modern facilities designed for a healthy, active, and social life.</p>
+                
+                <div class="project_amenities_grid">
+                    <!-- Amenity 1: Playground -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-child-reaching"></i>
+                            <h4>Playground</h4>
+                        </div>
                     </div>
-                    <div class="amenity__item">
-                        <i class="fa-solid fa-child"></i>
-                        <span>Kids Adventure Zone</span>
+                    <!-- Amenity 2: Jogging Track -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-person-running"></i>
+                            <h4>Jogging Track</h4>
+                        </div>
                     </div>
-                    <div class="amenity__item">
-                        <i class="fa-solid fa-house-chimney-window"></i>
-                        <span>Elegant Clubhouse</span>
+                    <!-- Amenity 3: Park -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-tree"></i>
+                            <h4>Lush Park</h4>
+                        </div>
                     </div>
-                    <div class="amenity__item">
-                        <i class="fa-solid fa-leaf"></i>
-                        <span>Grand Central Boulevard</span>
+                    <!-- Amenity 4: Swimming Pool -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <h4>Swimming Pool</h4>
+                        </div>
                     </div>
-                    <div class="amenity__item">
-                        <i class="fa-solid fa-dumbbell"></i>
-                        <span>Fully Loaded Gymnasium</span>
+                    <!-- Amenity 5: Children Play Area -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-children"></i>
+                            <h4>Kids Play Area</h4>
+                        </div>
                     </div>
-                    <div class="amenity__item">
-                        <i class="fa-solid fa-users"></i>
-                        <span>Multipurpose Community Hall</span>
+                    <!-- Amenity 6: Indoor Game 1 - Board Games -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1611195974226-a6a9be9dd763?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-chess"></i>
+                            <h4>Indoor Board Games</h4>
+                        </div>
                     </div>
-                    <div class="amenity__item">
-                        <i class="fa-solid fa-person-running"></i>
-                        <span>Jogging & Cycling Tracks</span>
+                    <!-- Amenity 7: Indoor Game 2 - Billiards -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-circle"></i>
+                            <h4>Billiards Room</h4>
+                        </div>
                     </div>
-                    <div class="amenity__item">
-                        <i class="fa-solid fa-spa"></i>
-                        <span>Yoga & Meditation Deck</span>
+                    <!-- Amenity 8: Indoor Game 3 - Table Tennis -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1534158914592-062992fbe900?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                            <h4>Table Tennis</h4>
+                        </div>
+                    </div>
+                    <!-- Amenity 9: Outdoor Game 1 - Basketball -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-basketball"></i>
+                            <h4>Basketball Court</h4>
+                        </div>
+                    </div>
+                    <!-- Amenity 10: Outdoor Game 2 - Tennis -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-baseball-bat-ball"></i>
+                            <h4>Tennis Court</h4>
+                        </div>
+                    </div>
+                    <!-- Amenity 11: Outdoor Game 3 - Cricket Net Practice -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-cricket-bat-ball"></i>
+                            <h4>Cricket Practice Net</h4>
+                        </div>
+                    </div>
+                    <!-- Amenity 12: Party Hall -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-champagne-glasses"></i>
+                            <h4>Party Hall</h4>
+                        </div>
+                    </div>
+                    <!-- Amenity 13: Party Lawn -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-sun-plant-wilt"></i>
+                            <h4>Party Lawn</h4>
+                        </div>
+                    </div>
+                    <!-- Amenity 14: 3 Club Houses -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-hotel"></i>
+                            <h4>3 Club Houses</h4>
+                        </div>
+                    </div>
+                    <!-- Amenity 15: Senior Citizens -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-wheelchair"></i>
+                            <h4>Senior Citizens</h4>
+                        </div>
+                    </div>
+                    <!-- Amenity 16: Mini Theater -->
+                    <div class="amenity-card">
+                        <div class="amenity-card__img" style="background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="amenity-card__overlay"></div>
+                        <div class="amenity-card__content">
+                            <i class="fa-solid fa-film"></i>
+                            <h4>Mini Theater</h4>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- ============================================
-             7. LOCATION SECTION
+             8. LOCATION & MAP (sec-project_location)
              ============================================ -->
-        <section class="section section--light" id="location">
+        <section class="sec-project_location" id="sec-project_location">
             <div class="container">
-                <div class="section-header">
-                    <h2>Location & Connectivity</h2>
-                    <p>Strategically situated in Vadgaon, Pune with seamless commutes to central hubs.</p>
-                </div>
-
+                <h2 class="title1 darkTitle text-center">Location <span>& Connectivity</span></h2>
+                
                 <div class="location__layout">
                     <div class="location__content">
                         <h3>Vantage Location Benefits</h3>
                         <ul class="location-list">
-                            <li><i class="fa-solid fa-circle-check"></i> Situated directly along prime growth corridors of Pune</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Close proximity to schools, hospitals, and high-streets</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Stunning riverside views and fresh low-density air</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Meticulously situated along Vadgaon growth corridors</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Quick access to leading corporate clusters & expressways</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Exceptional connectivity to schools and hospitals</li>
                         </ul>
-                        <a href="https://maps.app.goo.gl/SDxEFsjyGcZGzQZQ8" target="_blank" class="btn btn--navy location__map-btn">
+                        <a href="https://maps.app.goo.gl/SDxEFsjyGcZGzQZQ8" target="_blank" class="btn btn_black">
                             <i class="fa-solid fa-map-location-dot"></i> View on Google Maps
                         </a>
                     </div>
@@ -430,22 +536,29 @@
         </section>
 
         <!-- ============================================
-             8. LEAD ENQUIRY & CONTACT SECTION
+             9. ENQUIRE NOW FORM (sec-enquire_now)
              ============================================ -->
-        <section class="section section--dark" id="contact">
+        <section class="sec-enquire_now" id="sec-enquire_now">
             <div class="container">
                 <div class="contact__grid">
                     <div class="contact__info">
-                        <h2>Secure Your First-Mover Advantage</h2>
+                        <h2 class="title1 lightTitle">Secure <span>Your Advantage</span></h2>
                         <p class="contact__kicker">Pre-launch EOI Tokens Opening Soon!</p>
                         <p class="contact__text">
                             Express your interest today to get choice inventory layouts, premium views, and early-bird pre-launch pricing rates.
                         </p>
                         
-                        <div class="manager-card">
-                            <h4>Sourcing Partner</h4>
-                            <p class="manager-name">Makrand Pokharkar</p>
-                            <a href="tel:+917030025045" class="manager-phone"><i class="fa-solid fa-phone"></i> +91 70300 25045</a>
+                        <!-- Contact Details -->
+                        <div class="manager-cards-grid">
+                            <div class="manager-card">
+                                <h4>Official Sourcing & Booking Partner</h4>
+                                <p style="font-size: 0.88rem; color: rgba(255, 255, 255, 0.7); margin-bottom: 15px;">Connect with our team for Kolte Patil The Reserve (Featuring Tower Vyan) bookings:</p>
+                                <div class="manager-phones">
+                                    <a href="tel:+919637737557"><i class="fa-solid fa-phone"></i> +91 96377 37557</a>
+                                    <a href="tel:+919767515773"><i class="fa-solid fa-phone"></i> +91 97675 15773</a>
+                                    <a href="tel:+919765515773"><i class="fa-solid fa-phone"></i> +91 97655 15773</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -468,12 +581,12 @@
                                 <label for="formConfig">Preferred Configuration</label>
                                 <select id="formConfig" name="config" required>
                                     <option value="" disabled selected>Select Configuration</option>
-                                    <option value="2 BHK">Premium 2 BHK</option>
-                                    <option value="2.5 BHK">Spacious 2.5 BHK</option>
-                                    <option value="3 BHK">Ultra-Lux 3 BHK</option>
+                                    <option value="Vyan 2 BHK">2 BHK (Tower Vyan)</option>
+                                    <option value="Vyan 2.5 BHK">2.5 BHK (Tower Vyan)</option>
+                                    <option value="Vyan 3 BHK">3 BHK (Tower Vyan)</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn--gold btn--full">Register & Chat via WhatsApp</button>
+                            <button type="submit" class="btn btn_orange btn--full">Register & Chat via WhatsApp</button>
                         </form>
                     </div>
                 </div>
@@ -482,15 +595,20 @@
     </main>
 
     <!-- ============================================
-         FOOTER & DISCLAIMER
+         RERA & FOOTER (sec-project_rera)
          ============================================ -->
+    <section class="sec-project_rera">
+        <div class="container">
+            <p><i class="fa-solid fa-id-card"></i> MahaRERA Registration Number: <strong>PM1261012600748</strong></p>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
-            <p class="rera-label"><i class="fa-solid fa-id-card"></i> MahaRERA Reg No: <strong>PM1261012600748</strong></p>
             <p class="disclaimer">
                 Disclaimer: The information, plans, and images shown on this landing page are for representational and informational purposes only. Expected pricing, configurations, and specs are pre-launch estimations and subject to change without notice by developer.
             </p>
-            <p class="copyright">&copy; 2026 Kolte-Patil Vadgaon Riverside Township. All rights reserved.</p>
+            <p class="copyright">&copy; 2026 Kolte-Patil The Reserve (Featuring Tower Vyan Phase). All rights reserved.</p>
         </div>
     </footer>
 
@@ -520,16 +638,20 @@
                         <label for="modalConfig">Preferred Configuration</label>
                         <select id="modalConfig" name="config" required>
                             <option value="" disabled selected>Select Configuration</option>
-                            <option value="2 BHK">Premium 2 BHK</option>
-                            <option value="2.5 BHK">Spacious 2.5 BHK</option>
-                            <option value="3 BHK">Ultra-Lux 3 BHK</option>
+                            <option value="Vyan 2 BHK">2 BHK (Tower Vyan)</option>
+                            <option value="Vyan 2.5 BHK">2.5 BHK (Tower Vyan)</option>
+                            <option value="Vyan 3 BHK">3 BHK (Tower Vyan)</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn--gold btn--full">Submit & Request Access</button>
+                    <button type="submit" class="btn btn_orange btn--full">Submit & Request Access</button>
                 </form>
             </div>
-        </div>
     </div>
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/919637737557?text=Hello%2C%20I%27m%20interested%20in%20Kolte%20Patil%20The%20Reserve%20Pre-Launch." target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
 
     <!-- Script imports -->
     <script src="script.js"></script>
