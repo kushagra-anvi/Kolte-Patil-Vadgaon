@@ -1275,6 +1275,7 @@ section:not(.sec-project_hero):not(.sec-project_rera) {
   z-index: 2000;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .modal-overlay.active {
@@ -1283,13 +1284,15 @@ section:not(.sec-project_hero):not(.sec-project_rera) {
 
 .modal {
   background: var(--white);
-  padding: 45px;
+  padding: 30px 24px;
   border-radius: var(--radius-md);
   width: 100%;
   max-width: 500px;
   position: relative;
   box-shadow: var(--shadow-lg);
   animation: modalIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
 }
 
 @keyframes modalIn {
@@ -1325,7 +1328,21 @@ section:not(.sec-project_hero):not(.sec-project_rera) {
 .modal__body p {
   font-size: 0.88rem;
   color: var(--text-muted);
-  margin-bottom: 24px;
+  margin-bottom: 15px;
+}
+
+.modal .form-group {
+  margin-bottom: 14px;
+}
+
+.modal .form-group input,
+.modal .form-group select {
+  padding: 10px 12px;
+  font-size: 0.92rem;
+}
+
+.modal .form-group label {
+  margin-bottom: 5px;
 }
 
 /* === FLOATING WHATSAPP CHAT WIDGET === */
