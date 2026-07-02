@@ -136,9 +136,9 @@ document.addEventListener("DOMContentLoaded", () => {
             let targetPhone = "9637737557"; // Default for The Reserve
             let projectDisplay = "Kolte Patil The Reserve";
             
-            if (config.toLowerCase().includes("vyan")) {
-                targetPhone = "9767515773"; // Primary for Vyan
-                projectDisplay = "Kolte Patil Vyan";
+            if (config.toLowerCase().includes("vyana")) {
+                targetPhone = "9767515773"; // Primary for Vyana
+                projectDisplay = "Kolte Patil Vyana";
             }
 
             // Format message
