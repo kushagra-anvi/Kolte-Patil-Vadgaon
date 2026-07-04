@@ -1483,15 +1483,20 @@ section:not(.sec-project_hero):not(.sec-project_rera) {
     grid-template-columns: 1fr;
   }
   .tab-wrp {
-    width: auto;
-    max-width: 100%;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 40px;
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    flex-wrap: nowrap;
+    gap: 6px;
+    margin: 24px auto 35px;
+    padding: 4px;
   }
   .tablink {
-    padding: 10px 18px;
-    font-size: 0.8rem;
+    flex: 1;
+    text-align: center;
+    padding: 10px 6px;
+    font-size: 0.78rem;
+    white-space: nowrap;
   }
   .specs-table th, 
   .specs-table td {
@@ -1524,12 +1529,13 @@ section:not(.sec-project_hero):not(.sec-project_rera) {
     font-size: 1.5rem;
   }
   .tab-wrp {
-    gap: 6px;
+    gap: 4px;
     padding: 4px;
+    margin: 20px auto 30px;
   }
   .tablink {
-    padding: 8px 12px;
-    font-size: 0.75rem;
+    padding: 8px 4px;
+    font-size: 0.72rem;
   }
   .pricing__card {
     padding: 30px 16px;
