@@ -649,6 +649,7 @@ section:not(.sec-project_hero):not(.sec-project_rera) {
   border-radius: var(--radius-md);
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-shadow: var(--shadow-sm);
+  text-align: center;
 }
 
 .overview_project_logo {
@@ -663,6 +664,7 @@ section:not(.sec-project_hero):not(.sec-project_rera) {
   color: var(--primary-dark);
   margin-bottom: 24px;
   line-height: 1.45;
+  text-align: center;
 }
 
 .overview_details_list {
